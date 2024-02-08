@@ -53,7 +53,7 @@ const Navbar = () => {
           //  For checking that whether the user is log in or not
           isAuthenticated ? (
             <li> 
-              <button className="signInBtn btn"  onClick={() => logout({ logoutParams: { returnTo:  "https://a-shish07.github.io/Travel_Website" } })}>
+              <button className="signInBtn btn"  onClick={() => logout({ logoutParams: { returnTo:  "https://a-shish07.github.io/Travel_Website/" } })}>
           Log Out
         </button>
         </li>
